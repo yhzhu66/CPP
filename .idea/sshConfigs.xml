@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="130.216.4.220" id="dc324730-01a0-4806-8f94-c6b7c49e0c8b" port="22" customName="RLGL" nameFormat="CUSTOM" username="yzhu970" useOpenSSHConfig="true">
+        <option name="customName" value="RLGL" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
