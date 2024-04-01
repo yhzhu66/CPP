@@ -56,7 +56,11 @@ def load_single_graph(args=None, train_ratio=0.1, val_ratio=0.1):
         I = torch.eye(A.shape[1]).to(A.device)
         A_I = A + I
         A_I_nomal = row_normalize(A_I)
-        labela = data.y
+        label = data.y
+
+        return [A_I_nomal, A_nomal, A], data.x, label, idx_train, idx_val, idx_test
+
+
     elif args.dataset in ['Cora']:
         idx_features_labels = np.genfromtxt("{}{}.content".format("./dataset/Cora/", "cora"), dtype=np.dtype(str))
         features = sp.csr_matrix(idx_features_labels[:, 1:-1], dtype=np.float32)
@@ -100,7 +104,7 @@ def load_single_graph(args=None, train_ratio=0.1, val_ratio=0.1):
         idx_val = torch.LongTensor(idx_val)
         idx_test = torch.LongTensor(idx_test)
 
-    return [A_I_nomal, A_nomal, A], data.x, label, idx_train, idx_val, idx_test
+        return [A_I_nomal, A_nomal, A], features, labels, idx_train, idx_val, idx_test
 
 
 

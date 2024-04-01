@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da59d969-ca65-4f0f-b0c0-295dfaa66967" name="Changes" comment="This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification'. In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, resulting in the maximal receptive field and reduced reliance on label information. If you are interested in our work, please also cite our paper:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +214,7 @@
       <workItem from="1711672419272" duration="2753000" />
       <workItem from="1711695145441" duration="1044000" />
       <workItem from="1711698804050" duration="15716000" />
-      <workItem from="1711929442256" duration="2962000" />
+      <workItem from="1711929442256" duration="5598000" />
     </task>
     <task id="LOCAL-00001" summary="This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification'. In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, resulting in the maximal receptive field and reduced reliance on label information. If you are interested in our work, please also cite our paper:">
       <option name="closed" value="true" />
@@ -223,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711786303739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification'. In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, resulting in the maximal receptive field and reduced reliance on label information. If you are interested in our work, please also cite our paper:">
+      <option name="closed" value="true" />
+      <created>1711935378445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711935378445</updated>
+    </task>
+    <task id="LOCAL-00003" summary="This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification'. In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, resulting in the maximal receptive field and reduced reliance on label information. If you are interested in our work, please also cite our paper:">
+      <option name="closed" value="true" />
+      <created>1711935434556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711935434556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification'. In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, resulting in the maximal receptive field and reduced reliance on label information. If you are interested in our work, please also cite our paper:" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification'. In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, resulting in the maximal receptive field and reduced reliance on label information. If you are interested in our work, please also cite our paper:" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,7 +261,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/utils/process.py</url>
-          <line>60</line>
+          <line>64</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -254,6 +272,7 @@
     <SUITE FILE_PATH="coverage/RLGL$Noise_Cora.coverage" NAME="Noise_Cora Coverage Results" MODIFIED="1704693824257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Plot" />
     <SUITE FILE_PATH="coverage/RLGL$main_blockAtt.coverage" NAME="main_blockAtt Coverage Results" MODIFIED="1701412016852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RLGL$main_CPP.coverage" NAME="main_CPP Coverage Results" MODIFIED="1711784782115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CPP$main_CPP.coverage" NAME="main_CPP Coverage Results" MODIFIED="1711940596899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RLGL$Semi_SELFCONS.coverage" NAME="Semi_SELFCONS Coverage Results" MODIFIED="1711676178682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models/NodeClas" />
     <SUITE FILE_PATH="coverage/RLGL$main_Comparison_GT.coverage" NAME="main_Comparison_GT Coverage Results" MODIFIED="1701411300117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
