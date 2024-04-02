@@ -1,4 +1,4 @@
-#Chain of Propagation Prompting for Node Classification
+# Chain of Propagation Prompting for Node Classification
 
 This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification' 
 
