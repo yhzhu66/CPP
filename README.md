@@ -1,3 +1,5 @@
+#Chain of Propagation Prompting for Node Classification
+
 This is the implementation of our paper 'Chain of Propagation Prompting for Node Classification' 
 
 In this paper, we propose using a simple pattern of message-passing, which is based on a weighted multi-hop graph, to prompt self-attention to capture a more complex message-passing pattern, 
